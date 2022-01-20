@@ -19,10 +19,10 @@ class School {
 }
 
 let KIT :School = new School("Kirirom institute of technology", "Kompong spue", 3);
-console.log(KIT);
+KIT.printSchoolDetails()
 
 let Aupp:School = new School("American University of Phnom Penh", "Phnom Penh", 8);
-console.log(Aupp);
+Aupp.printSchoolDetails()
 
 let CamED:School = new School("CamEd Business School", "Phnom Penh", 6);
-console.log(CamED);
+CamED.printSchoolDetails()

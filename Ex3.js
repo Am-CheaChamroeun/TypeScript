@@ -14,8 +14,8 @@ var School = /** @class */ (function () {
     return School;
 }());
 var KIT = new School("Kirirom institute of technology", "Kompong spue", 3);
-console.log(KIT);
+KIT.printSchoolDetails()
 var Aupp = new School("American University of Phnom Penh", "Phnom Penh", 8);
-console.log(Aupp);
+Aupp.printSchoolDetails()
 var CamED = new School("CamEd Business School", "Phnom Penh", 6);
-console.log(CamED);
+CamED.printSchoolDetails()
